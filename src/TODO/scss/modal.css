@@ -1,0 +1,78 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.modal .btn-container {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30vh;
+  font-family: "Rubik-Light";
+}
+
+.modal .btn-container .hold {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.modal .btn-container .hold .txt {
+  padding: 2rem;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+}
+
+.modal .btn-container .hold .btn {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal .btn-container .hold .btn button {
+  border: none;
+  color: #fff;
+  outline: none;
+  border-radius: 3px;
+  width: 6rem;
+  cursor: pointer;
+  font-family: "Rubik-Light";
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  height: 4rem;
+  background-color: gray;
+}
+
+.modal .btn-container .hold .btn button:hover {
+  background-color: #000;
+}
+
+.modal .btn-container .hold .btn button:not(:last-child) {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=modal.css.map */

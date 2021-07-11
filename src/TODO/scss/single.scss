@@ -1,0 +1,81 @@
+.single {
+  position: relative;
+  width: 30%;
+  font-family: "Rubik-Light";
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  padding: 0.3rem;
+  border: 2px solid #eee;
+  & .txt {
+    position: inherit;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000;
+  }
+  & .btns {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    & .edit {
+      position: relative;
+      width: 45%;
+      margin-right: 5%;
+      height: 80%;
+
+      & button {
+        position: inherit;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        border: 2px solid rgba(#000, 0);
+        border-radius: 3px;
+
+        &:hover {
+          border: 2px solid rgba(#000, 0.5);
+        }
+        & img {
+          position: relative;
+          width: 100%;
+          height: 90%;
+          margin-top: 5%;
+          z-index: -22;
+        }
+      }
+    }
+    & .del {
+      position: relative;
+      width: 45%;
+      margin-right: 5%;
+      height: 80%;
+
+      & button {
+        cursor: pointer;
+        position: inherit;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid rgba(#000, 0);
+        border-radius: 3px;
+
+        &:hover {
+          border: 2px solid rgba(#000, 0.5);
+        }
+        & img {
+          //   background-color: red;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          z-index: -22;
+        }
+      }
+    }
+  }
+}
