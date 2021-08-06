@@ -1,6 +1,6 @@
-import Nav from './TODO/nav';
-import Body from './TODO/Body';
-import Provider from "./TODO/CONTEXT"
+import Nav from './nav';
+import Body from './Body';
+import Provider from "./CONTEXT"
 
 function App() {
 
